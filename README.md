@@ -7,16 +7,16 @@ Business Problem: In order to better understand its customers and boost sales in
 
 ## Steps
 
-1) **Data Cleaning**: In order to clean up the data, we utilise Excel's "Find and Replace" feature together with the Filters to check for duplicate entries and null values.
+1) **Data Cleaning**: To clean up the data, we utilize Excel's "Find and Replace" feature with the Filters to check for duplicate entries and null values.
 
 ---------
-2) **Data Processing**: We process information that will aid in our analysis. We also need to know the gender-age connection, but that will be a laborious effort at certain ages. Thus, we categorise people of different ages:
+2) **Data Processing**: We process information to aid our analysis. We also need to know the gender-age connection, but that will be a laborious effort at certain ages. Thus, we categorize people of different ages:
 
-  IF the age>=50 => "Senior",
-  IF the age>=30 => "Adult",
+  If the age>=50 => "Senior",
+  If the age>=30 => "Adult",
   Else "Teenager"
 
-- Additionally, we need the month for our study, so we utilise Excel's =TEXT() method to extract the month from our Date column.
+- Additionally, we need the month for our study, so we utilize Excel's =TEXT() method to extract the month from our Date column.
 -----------
 3) **Data Analysis**: We created Pivot tables and charts with the help of which we extracted insights.
 
@@ -33,11 +33,11 @@ Business Problem: In order to better understand its customers and boost sales in
 
 Hence, most of the orders are Delivered.
 - The top 5 states contributing to the sales are: Maharashtra, Karnataka, Uttar Pradesh, Telangana and Tamil Nadu
-- Adult Women has the highest number of orders
+- Adult Women have the highest number of orders
 - Amazon is the most dominant channel
   
 #### To improve their sales, Vrinda Store can:
-  - Target female consumers in the 30-to 49-year-old age range living in Maharashtra, Karnataka and Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart and Myntra.
+  - Target female consumers in the 30-to 49-year-old age range living in Maharashtra, Karnataka, and Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart, and Myntra.
  
 
 
