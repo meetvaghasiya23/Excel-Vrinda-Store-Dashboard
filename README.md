@@ -10,11 +10,11 @@ Business Problem: In order to better understand its customers and boost sales in
 1) **Data Cleaning**: In order to clean up the data, we utilise Excel's "Find and Replace" feature together with the Filters to check for duplicate entries and null values.
 
 ---------
-2) **Data Processing**: We process information that will aid in our analysis. We also need to know the gender-age connection, but that will be a laborious effort at certain ages. Thus, we categorise people of different ages.
+2) **Data Processing**: We process information that will aid in our analysis. We also need to know the gender-age connection, but that will be a laborious effort at certain ages. Thus, we categorise people of different ages:
 
-IF the age>=50 => "Senior"
-IF the age>=30 => "Adult"
-Else "Teenager"
+  IF the age>=50 => "Senior"
+  IF the age>=30 => "Adult"
+  Else "Teenager"
 
 - Additionally, we need the month for our study, so we utilise Excel's =TEXT() method to extract the month from our Date column.
 -----------
