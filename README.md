@@ -17,7 +17,7 @@ IF the age>=30 => "Adult"
 Else "Teenager"
 
 - Additionally, we need the month for our study, so we utilise Excel's =TEXT() method to extract the month from our Date column.
-
+-----------
 3) **Data Analysis**: We created Pivot tables and charts and some of the insights extracted are:
 
 - "March" is the month with the most orders and sales.
